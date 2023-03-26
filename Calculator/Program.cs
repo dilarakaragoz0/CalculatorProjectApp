@@ -7,13 +7,13 @@
             Console.WriteLine("Hesap Makinesi");
 
             Console.Write("Birinci sayıyı giriniz: ");
-            int sayi1 = int.Parse(Console.ReadLine());
+            double sayi1 = double.Parse(Console.ReadLine());
             
             Console.Write("İşlem seçiniz (+) (-) (*) (/) (%): ");
             string islem = Console.ReadLine();
 
             Console.Write("ikinci sayıyı giriniz: ");
-            int sayi = int.Parse(Console.ReadLine());
+            double sayi = double.Parse(Console.ReadLine());
 
 
             switch (islem)
