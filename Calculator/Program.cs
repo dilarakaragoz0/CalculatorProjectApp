@@ -8,6 +8,9 @@
 
             Console.Write("Birinci sayıyı giriniz: ");
             int sayi1 = int.Parse(Console.ReadLine());
+            
+            Console.Write("İşlem seçiniz (+) (-) (*) (/) (%): ");
+            int islem = int.Parse(Console.ReadLine());
 
             Console.Write("ikinci sayıyı giriniz: ");
             int sayi = int.Parse(Console.ReadLine());
