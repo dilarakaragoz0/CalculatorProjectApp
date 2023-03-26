@@ -18,7 +18,12 @@
 
             switch (islem)
             {
-                case "+":Console.WriteLine(sayi1+sayi);
+                case "+":
+                    Console.WriteLine(sayi1+sayi);
+                    break;
+
+                case "-":
+                    Console.WriteLine(sayi1-sayi);
                     break;
             }
         }
